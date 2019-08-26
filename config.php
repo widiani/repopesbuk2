@@ -1,7 +1,7 @@
 <?php
 
 $db_host = "dbsosmed-widiani.cf4kbdfuw9lt.us-east-2.rds.amazonaws.com";
-$db_user = "widi";
+$db_user = "root";
 $db_pass = "jaringan";
 $db_name = "dbsosmedwidiani";
 
