@@ -1,0 +1,24 @@
+{
+  "containerDefinitions": [
+   {
+     "name": "pesbuk-widiani",
+     "image": "widiani2103/pesbuk:1.0.1.BUILD_NUMBER",
+     "cpu": 0,
+     "memory": 128,
+     "portMappings": [
+       {
+         "containerPort": 80
+       }
+     ],
+     "dockerLabels": {
+       "container" : "pesbuk-widiani",
+       "environtment" : "development"
+      },
+      "logConfiguration" : {
+        "logDriver": "json-file",
+        "options": {
+          "labels" : "container, environment"
+        }
+     }
+   }]
+}
