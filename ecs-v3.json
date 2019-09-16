@@ -2,7 +2,7 @@
   "containerDefinitions": [
    {
      "name": "pesbuk-widiani",
-     "image": "widiani2103/pesbuk:1.0.1.IMAGE",
+     "image": "widiani2103/pesbuk:1.0.2.BUILD_NUMBER",
      "cpu": 0,
      "memory": 128,
      "portMappings": [
